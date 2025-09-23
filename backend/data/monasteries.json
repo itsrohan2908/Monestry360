@@ -1,0 +1,227 @@
+[
+{
+"name": "Rumtek Monastery",
+"description": "Seat of the Karmapa, largest monastery in Sikkim, central to the Karma Kagyu lineage.",
+"latitude": 27.32583,
+"longitude": 88.60155,
+"established": "1960",
+"visitingInfo": "Open 9 AM to 6 PM",
+"images": ["/images/rumtek1.jpeg"]
+},
+{
+"name": "Pemayangtse Monastery",
+"description": "Second oldest, prime Nyingma site, houses historic statues and thangkas.",
+"latitude": 27.29845,
+"longitude": 88.23432,
+"established": "1705",
+"visitingInfo": "Open 8 AM to 5 PM",
+"images": ["/images/pemayangtse1.jpg"]
+},
+{
+"name": "Enchey Monastery",
+"description": "Home to sacred mask dances, unique wooden architecture, historical importance.",
+"latitude": 27.33997,
+"longitude": 88.61646,
+"established": "1840",
+"visitingInfo": "Open 9 AM to 5 PM",
+"images": ["/images/enchey1.jpg"]
+},
+{
+"name": "Tashiding Monastery",
+"description": "Nyingma sect, holiest site, known for annual Bumchu festival.",
+"latitude": 27.30833,
+"longitude": 88.29806,
+"established": "1717",
+"visitingInfo": "Open 8 AM to 5 PM",
+"images": ["/images/tashiding1.jpg"]
+},
+{
+"name": "Dubdi Monastery",
+"description": "Oldest, 'Hermit’s Cell', supreme Nyingma center, scenic forested hilltop.",
+"latitude": 27.37264,
+"longitude": 88.20991,
+"established": "1701",
+"visitingInfo": "Open 7 AM to 6 PM",
+"images": ["/images/dubdi1.jpg"]
+},
+{
+"name": "Phodong Monastery",
+"description": "Known for wall murals, important Karma Kagyu monastery.",
+"latitude": 27.45850,
+"longitude": 88.61210,
+"established": "1740",
+"visitingInfo": "Open 8 AM to 5 PM",
+"images": ["/images/phodong1.jpg"]
+},
+{
+"name": "Ralang Monastery",
+"description": "Noted for Tibetan architecture, and Pang Lhabsol festival.",
+"latitude": 27.22340,
+"longitude": 88.37141,
+"established": "1850",
+"visitingInfo": "Open 8 AM to 6 PM",
+"images": ["/images/ralang1.jpeg"]
+},
+{
+"name": "Lingdum Monastery",
+"description": "Modern architecture, peaceful ambience, vibrant prayer wheels.",
+"latitude": 27.31864,
+"longitude": 88.71632,
+"established": "1998",
+"visitingInfo": "Open 9 AM to 6 PM",
+"images": ["/images/lingdum1.jpg"]
+},
+{
+"name": "Kartok Monastery",
+"description": "Scenic lakeside location, red-painted pagoda-style site, in Yuksom.",
+"latitude": 27.33421,
+"longitude": 88.21224,
+"established": "1800",
+"visitingInfo": "Open 8 AM to 5 PM",
+"images": ["/images/kartok1.jpg"]
+},
+{
+"name": "Tsuklakhang Monastery",
+"description": "Royal family temple, historic thangkas and Buddhist festivals.",
+"latitude": 27.33445,
+"longitude": 88.61488,
+"established": "1898",
+"visitingInfo": "Open 8 AM to 6 PM",
+"images": ["/images/tsuklakhang1.jpg"]
+},
+{
+"name": "Sanga Choeling Monastery",
+"description": "One of Sikkim’s oldest, on a ridge above Pelling, Nyingma sect.",
+"latitude": 27.30381,
+"longitude": 88.22144,
+"established": "1697",
+"visitingInfo": "Open 7 AM to 5 PM",
+"images": ["/images/sanga1.jpg"]
+},
+{
+"name": "Lachen Monastery",
+"description": "Key spiritual center in North Sikkim, hosts annual mask dances.",
+"latitude": 27.71271,
+"longitude": 88.56146,
+"established": "1858",
+"visitingInfo": "Open 7 AM to 6 PM",
+"images": ["/images/lachen1.jpg"]
+},
+{
+"name": "Lachung Monastery",
+"description": "Scenic setting, important in northern region, hosts festivals.",
+"latitude": 27.49331,
+"longitude": 88.74206,
+"established": "1850",
+"visitingInfo": "Open 8 AM to 6 PM",
+"images": ["/images/lachung1.jpg"]
+},
+{
+"name": "Phensang Monastery",
+"description": "Nyingma monastery, noted for festive celebrations.",
+"latitude": 27.37851,
+"longitude": 88.62203,
+"established": "1721",
+"visitingInfo": "Open 8 AM to 6 PM",
+"images": ["/images/phensang1.jpg"]
+},
+{
+"name": "Labrang Monastery",
+"description": "Nyingma sect monastery, atmospheric hillside location.",
+"latitude": 27.46410,
+"longitude": 88.61470,
+"established": "1895",
+"visitingInfo": "Open 7 AM to 6 PM",
+"images": ["/images/labrang1.jpg"]
+},
+{
+"name": "Kewzing Monastery",
+"description": "Serene, nestled in Kewzing village, important local Buddhist center.",
+"latitude": 27.21547,
+"longitude": 88.37263,
+"established": "1974",
+"visitingInfo": "Open 8 AM to 5 PM",
+"images": ["/images/kewzing1.jpg"]
+},
+{
+"name": "Bon Monastery",
+"description": "Only Bon faith monastery in Sikkim, unique religious traditions.",
+"latitude": 27.24283,
+"longitude": 88.32851,
+"established": "1980",
+"visitingInfo": "Open 8 AM to 5 PM",
+"images": ["/images/bon1.jpg"]
+},
+{
+"name": "Doling Monastery",
+"description": "Situated on sacred ground near Ravangla, hosts local festivals.",
+"latitude": 27.22624,
+"longitude": 88.35000,
+"established": "1718",
+"visitingInfo": "Open 7 AM to 6 PM",
+"images": ["/images/doling1.jpg"]
+},
+{
+"name": "Rabong Monastery",
+"description": "Modern monastery at Ravangla, important center, scenic views.",
+"latitude": 27.18332,
+"longitude": 88.38854,
+"established": "2006",
+"visitingInfo": "Open 8 AM to 6 PM",
+"images": ["/images/rabong1.jpg"]
+},
+{
+"name": "Yuksom Dubdi Monastery",
+"description": "Historic hilltop Nyingma monastery, highest altitude in Sikkim.",
+"latitude": 27.33309,
+"longitude": 88.21267,
+"established": "1701",
+"visitingInfo": "Open 8 AM to 5 PM",
+"images": ["/images/yuksomdubdi1.jpg"]
+},
+{
+"name": "Rinchenpung Monastery",
+"description": "Known for historical murals, perched near Pelling.",
+"latitude": 27.25849,
+"longitude": 88.20469,
+"established": "1730",
+"visitingInfo": "Open 8 AM to 6 PM",
+"images": ["/images/rinchenpung1.jpg"]
+},
+{
+"name": "Khachoedpalri Monastery",
+"description": "Located near Khachoedpalri Lake, sacred pilgrimage destination.",
+"latitude": 27.32199,
+"longitude": 88.22887,
+"established": "1760",
+"visitingInfo": "Open 8 AM to 6 PM",
+"images": ["/images/khachoedpalri1.jpg"]
+},
+{
+"name": "Simik Monastery",
+"description": "Atmospheric site with vibrant religious rituals in East Sikkim.",
+"latitude": 27.36211,
+"longitude": 88.60011,
+"established": "1843",
+"visitingInfo": "Open 8 AM to 6 PM",
+"images": ["/images/simik1.jpg"]
+},
+{
+"name": "Rhenock Monastery",
+"description": "Key eastern Sikkim monastery, several local festivals held.",
+"latitude": 27.18264,
+"longitude": 88.63691,
+"established": "1904",
+"visitingInfo": "Open 8 AM to 5 PM",
+"images": ["/images/rhenock1.jpg"]
+},
+{
+"name": "Barphog Monastery",
+"description": "Northern Sikkim—built in 1957, respected for community gatherings.",
+"latitude": 27.68816,
+"longitude": 88.56311,
+"established": "1957",
+"visitingInfo": "Open 8 AM to 6 PM",
+"images": ["/images/barphog1.jpg"]
+}
+]
