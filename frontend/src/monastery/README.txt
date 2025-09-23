@@ -1,0 +1,1 @@
+This folder contains the correctly spelled monastery components. The old 'monestry' and 'monastry' folders/files can be deleted after migration.
