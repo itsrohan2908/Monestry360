@@ -25,10 +25,20 @@ function MonasteryStreetView({ center = { lat: 0, lng: 0 }, height = 400, srcOve
   const normalizeEmbed = (url) => {
     try {
       const u = new URL(url)
-      // Only allow maps.google.com or www.google.com/maps embeds
-      const isMaps = /(^|\.)google\.com$/i.test(u.hostname) && (u.pathname.startsWith('/maps') || u.search.includes('layer=c'))
-      if (!isMaps) return null
-      // Force maps.google.com/maps with output=svembed when possible
+      const hostOk = /(^|\.)google\.com$/i.test(u.hostname)
+      if (!hostOk) return null
+      const path = u.pathname || ''
+      const search = u.search || ''
+      // If this is an official Google Maps embed (pb-based or embed/v1), or already a Street View svembed, keep it as-is
+      if (
+        path.startsWith('/maps/embed') ||
+        path.startsWith('/maps/embed/v1') ||
+        search.includes('output=svembed') ||
+        search.includes('layer=c')
+      ) {
+        return u.toString()
+      }
+      // Otherwise, fall back to a coordinate-based Street View embed near the provided lat/lng
       const ll = `${lat},${lng}`
       return `https://maps.google.com/maps?q=&layer=c&cbll=${ll}&cbp=11,0,0,0,0&output=svembed`
     } catch {
