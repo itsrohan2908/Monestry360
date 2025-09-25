@@ -7,7 +7,8 @@ const monasterySchema = new mongoose.Schema({
   longitude: Number,
   established: String,
   visitingInfo: String,
-  images: [String]
+  images: [String],
+  streetView: String
 });
 
 module.exports = mongoose.model('Monastery', monasterySchema);

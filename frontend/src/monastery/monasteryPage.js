@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import MonasteryMap from './monasteryMap'
+import MonasteryStreetView from './monasteryStreetView'
 
 function MonasteryPage() {
     const { id } = useParams()
@@ -53,7 +54,29 @@ function MonasteryPage() {
                 </div>
             )}
             <p className="mb-3">{monastery.description}</p>
-            <MonasteryMap center={center} zoom={12} />
+            <div className="row g-3">
+                <div className="col-12 col-lg-6">
+                    <div className="card">
+                        <div className="card-header">Map</div>
+                        <div className="card-body">
+                            <MonasteryMap center={center} zoom={12} />
+                        </div>
+                    </div>
+                </div>
+                <div className="col-12 col-lg-6">
+                    <div className="card">
+                        <div className="card-header">3D Street View</div>
+                        <div className="card-body">
+                            {monastery.streetView ? (
+                                <div className="ratio ratio-4x3" style={{ minHeight: 400 }}
+                                     dangerouslySetInnerHTML={{ __html: monastery.streetView }} />
+                            ) : (
+                                <MonasteryStreetView center={center} height={400} />
+                            )}
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

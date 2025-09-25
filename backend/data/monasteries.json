@@ -6,16 +6,8 @@
 "longitude": 88.60155,
 "established": "1960",
 "visitingInfo": "Open 9 AM to 6 PM",
-"images": ["/images/rumtek1.jpeg"]
-},
-{
-"name": "Pemayangtse Monastery",
-"description": "Second oldest, prime Nyingma site, houses historic statues and thangkas.",
-"latitude": 27.29845,
-"longitude": 88.23432,
-"established": "1705",
-"visitingInfo": "Open 8 AM to 5 PM",
-"images": ["/images/pemayangtse1.jpg"]
+"images": ["/images/rumtek1.jpeg"],
+    "streetView": "<iframe src=\"https://www.google.com/maps/embed?pb=!4v1758786147699!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRHNqcnJmWUE.!2m2!1d27.3059104605377!2d88.53628917812625!3f97.3989490836089!4f6.00889932175879!5f0.7820865974627469\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
 },
 {
 "name": "Enchey Monastery",
@@ -24,7 +16,8 @@
 "longitude": 88.61646,
 "established": "1840",
 "visitingInfo": "Open 9 AM to 5 PM",
-"images": ["/images/enchey1.jpg"]
+"images": ["/images/enchey1.jpg"],
+    "streetView": "<iframe src=\"https://www.google.com/maps/place/Enchey+Monastery/@27.3359368,88.6191659,3a,75y,44.02h,90t/data=!3m8!1e1!3m6!1sCIHM0ogKEICAgICJsMq39gE!2e10!3e11!6shttps:%2F%2Flh3.googleusercontent.com%2Fgpms-cs-s%2FAB8u6HbKMR-yNeQNWQweFNP6o0rqTtkJu4AyVJ0n4waGnD1EsiIshUjd93jVuJ1ytoTZFU6bpFZIYpyxHcyUkeIm6bU8wB2nGdPcvYSzUpbteceZvzSH8FwGmy551MmVTTfZLowpgixe%3Dw900-h600-k-no-pi0-ya44.015686-ro0-fo100!7i6080!8i3040!4m14!1m7!3m6!1s0x39e6ba848fe4b38f:0xf1c23957008e31e8!2sEnchey+Monastery!8m2!3d27.3359368!4d88.6191659!16zL20vMDZyZDM1!3m5!1s0x39e6ba848fe4b38f:0xf1c23957008e31e8!8m2!3d27.3359368!4d88.6191659!16zL20vMDZyZDM1?entry=ttu\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
 },
 {
 "name": "Tashiding Monastery",
