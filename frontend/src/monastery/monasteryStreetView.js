@@ -51,6 +51,7 @@ function MonasteryStreetView({ center = { lat: 0, lng: 0 }, height = 400, srcOve
         width="100%"
         height={height}
         style={{ border: 0 }}
+        allow="accelerometer; gyroscope; magnetometer; fullscreen"
         allowFullScreen
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
