@@ -67,12 +67,19 @@ function MonasteryPage() {
                     <div className="card">
                         <div className="card-header">3D Street View</div>
                         <div className="card-body">
-                            {monastery.streetView ? (
-                                <div className="ratio ratio-4x3" style={{ minHeight: 400 }}
-                                     dangerouslySetInnerHTML={{ __html: monastery.streetView }} />
-                            ) : (
-                                <MonasteryStreetView center={center} height={400} />
-                            )}
+                            {(() => {
+                                const html = monastery.streetView || ''
+                                // extract src if an iframe is provided
+                                const match = html.match(/src\s*=\s*"([^"]+)"/i)
+                                const candidate = match ? match[1] : null
+                                // Reject non-embeddable root google.com iframes
+                                const bad = candidate && /https?:\/\/www\.google\.com\/?(\?|$)/i.test(candidate)
+                                if (candidate && !bad) {
+                                    return <MonasteryStreetView center={center} height={400} srcOverride={candidate} />
+                                }
+                                // Fallback to coordinate-based embed which is embeddable
+                                return <MonasteryStreetView center={center} height={400} />
+                            })()}
                         </div>
                     </div>
                 </div>
