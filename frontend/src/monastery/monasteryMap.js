@@ -1,5 +1,5 @@
 import React from 'react'
-import { APIProvider, Map, AdvancedMarker, Pin, Marker } from '@vis.gl/react-google-maps'
+import { APIProvider, Map, AdvancedMarker, Pin } from '@vis.gl/react-google-maps'
 
 function MonasteryMap({ center = { lat: 27.7172, lng: 85.3240 }, zoom = 10 }) {
     const apiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY
@@ -20,7 +20,7 @@ function MonasteryMap({ center = { lat: 27.7172, lng: 85.3240 }, zoom = 10 }) {
             <APIProvider apiKey={apiKey} libraries={["marker"]}>
                 {!hasMapId && (
                     <div className="small text-warning mb-1">
-                        Missing REACT_APP_GOOGLE_MAPS_MAP_ID. Advanced Markers may be limited; falling back to classic marker.
+                        Missing REACT_APP_GOOGLE_MAPS_MAP_ID. Advanced Markers render but styling features may be limited.
                     </div>
                 )}
                 <Map
@@ -29,13 +29,9 @@ function MonasteryMap({ center = { lat: 27.7172, lng: 85.3240 }, zoom = 10 }) {
                     mapId={mapId}
                     disableDefaultUI={false}
                 >
-                    {hasMapId ? (
-                        <AdvancedMarker position={center}>
-                            <Pin background={'#1a73e8'} borderColor={'#0d47a1'} glyph={'★'} />
-                        </AdvancedMarker>
-                    ) : (
-                        <Marker position={center} />
-                    )}
+                    <AdvancedMarker position={center}>
+                        <Pin background={'#1a73e8'} borderColor={'#0d47a1'} glyph={'★'} />
+                    </AdvancedMarker>
                 </Map>
             </APIProvider>
         </div>
