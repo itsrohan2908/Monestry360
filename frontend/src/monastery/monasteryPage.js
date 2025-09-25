@@ -68,11 +68,16 @@ function MonasteryPage() {
                         <div className="card-header">3D Street View</div>
                         <div className="card-body">
                             {(() => {
-                                const html = monastery.streetView || ''
-                                // extract src if an iframe is provided
-                                const match = html.match(/src\s*=\s*"([^"]+)"/i)
-                                const candidate = match ? match[1] : null
-                                // Reject non-embeddable root google.com iframes
+                                const html = (monastery.streetView || '').trim()
+                                // 1) Try to extract iframe src using either double or single quotes
+                                let candidate = null
+                                const m1 = html.match(/src\s*=\s*"([^"]+)"/i) || html.match(/src\s*=\s*'([^']+)'/i)
+                                if (m1) candidate = m1[1]
+                                // 2) If no iframe found but html looks like a direct URL, use it
+                                if (!candidate && /^https?:\/\//i.test(html)) {
+                                    candidate = html
+                                }
+                                // Reject non-embeddable root google.com pages (not /maps/embed or svembed)
                                 const bad = candidate && /https?:\/\/www\.google\.com\/?(\?|$)/i.test(candidate)
                                 if (candidate && !bad) {
                                     return <MonasteryStreetView center={center} height={400} srcOverride={candidate} />
